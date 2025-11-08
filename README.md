@@ -1,4 +1,5 @@
 <p align="center"> <img src="https://img.shields.io/badge/Python-3.9-blue?logo=python" alt="Python"> <img src="https://img.shields.io/badge/OpenCV-Image_Processing-green?logo=opencv" alt="OpenCV"> <img src="https://img.shields.io/badge/scikit--learn-Machine_Learning-orange?logo=scikit-learn" alt="Scikit-Learn"> <img src="https://img.shields.io/badge/Accuracy-76.87%25-brightgreen" alt="Accuracy"> <img src="https://img.shields.io/badge/ROC_AUC-86.15%25-success" alt="ROC AUC"> <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License"> </p>
+
 📊 Project Overview
 A machine learning-based computer vision system for detecting counterfeit currency using Local Binary Pattern (LBP) feature extraction and Random Forest classification.
 
@@ -33,7 +34,7 @@ Fake Currency:
 - Precision: 0.80, Recall: 0.74, F1-Score: 0.77
 🛠 Installation
 bash
-git clone https://github.com/your-username/fake-currency-detection.git
+git clone https://github.com/Yokshith09/fake-currency-detection.git
 cd fake-currency-detection
 pip install opencv-python numpy pandas scikit-learn scikit-image matplotlib jupyter joblib tqdm
 🚀 Usage
