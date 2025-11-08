@@ -60,6 +60,7 @@ C --> D[Feature Scaling with Standard Scaler];
 D --> E[Model Prediction using Random Forest];
 E --> F{Real or Fake?};
 ```
+
 ⚙️ Features
 LBP Feature Extraction: 17 texture features per image
 
@@ -69,5 +70,5 @@ Balanced Dataset: Strategic class distribution
 
 Fast Processing: ~26 images/second feature extraction
 
-📄 License
+📄 License: 
 MIT License
