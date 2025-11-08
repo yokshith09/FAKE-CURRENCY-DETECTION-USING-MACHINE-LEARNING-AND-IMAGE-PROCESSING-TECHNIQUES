@@ -59,8 +59,7 @@ B --> C[Feature Extraction using LBP];
 C --> D[Feature Scaling with Standard Scaler];
 D --> E[Model Prediction using Random Forest];
 E --> F{Real or Fake?};
-
-
+```
 ⚙️ Features
 LBP Feature Extraction: 17 texture features per image
 
