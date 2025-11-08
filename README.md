@@ -37,7 +37,6 @@ By analyzing **texture patterns** and **local visual features**, the system can 
 
 ### ⚙️ **Project Workflow**
 
-```mermaid
 graph TD;
 A[Input Currency Image] --> B[Preprocessing: Grayscale + Resize];
 B --> C[Feature Extraction using LBP];
