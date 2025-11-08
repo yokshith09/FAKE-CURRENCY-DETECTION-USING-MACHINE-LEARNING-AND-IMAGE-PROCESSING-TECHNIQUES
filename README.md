@@ -39,10 +39,10 @@ By analyzing **texture patterns** and **local visual features**, the system can 
 
 ```mermaid
 graph TD;
-A[Input Currency Image] --> B[Preprocessing: Grayscale + Resize];
+A[Input Currency Image] --> B[Preprocessing: Grayscale and Resize];
 B --> C[Feature Extraction using LBP];
-C --> D[Feature Scaling (StandardScaler)];
-D --> E[Model Prediction (Random Forest)];
+C --> D[Feature Scaling with Standard Scaler];
+D --> E[Model Prediction using Random Forest];
 E --> F{Real or Fake?};
 🧩 Implementation Steps
 1️⃣ Image Preprocessing
