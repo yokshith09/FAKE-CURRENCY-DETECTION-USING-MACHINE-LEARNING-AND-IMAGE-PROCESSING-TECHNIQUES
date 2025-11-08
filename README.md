@@ -44,6 +44,7 @@ B --> C[Feature Extraction using LBP];
 C --> D[Feature Scaling with Standard Scaler];
 D --> E[Model Prediction using Random Forest];
 E --> F{Real or Fake?};
+
 🧩 Implementation Steps
 1️⃣ Image Preprocessing
 Convert RGB image to grayscale
