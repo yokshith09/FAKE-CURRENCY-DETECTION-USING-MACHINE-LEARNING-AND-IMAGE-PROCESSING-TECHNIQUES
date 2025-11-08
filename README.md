@@ -128,5 +128,3 @@ FAKE_CURRENCY_DETECTION/
 LBP encodes texture by comparing each pixel with its neighborhood.
 If neighboring pixels are brighter, it’s assigned 1; otherwise 0.
 The resulting binary pattern represents surface texture — real notes have smoother, consistent patterns, while fake notes show irregularities.
-
-<p align="center"> <img src="https://miro.medium.com/v2/resize:fit:800/format:webp/1*jXz2tT5XeStZMCzSr1m4gQ.png" width="400" alt="LBP Illustration"/> </p>
