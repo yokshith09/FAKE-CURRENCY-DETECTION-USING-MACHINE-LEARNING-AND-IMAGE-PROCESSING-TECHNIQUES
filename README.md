@@ -50,15 +50,16 @@ features_scaled = scaler.transform(lbp_features)
 prediction = model.predict(features_scaled)
 probability = model.predict_proba(features_scaled)
 
-📁 Project Structure
-fake-currency-detection/
-├── main.ipynb                 # Main Jupyter notebook
-├── rf_currency_detector.pkl   # Trained model (76.87% accuracy)
-├── scaler_currency.pkl        # Feature scaler
-├── dataset/                   # Currency images
-│   ├── real/                  # Real currency images
-│   └── fake/                  # Fake currency images
-└── README.md
+### ⚙️ **Project Workflow**
+
+```mermaid
+graph TD;
+A[Input Currency Image] --> B[Preprocessing: Grayscale and Resize];
+B --> C[Feature Extraction using LBP];
+C --> D[Feature Scaling with Standard Scaler];
+D --> E[Model Prediction using Random Forest];
+E --> F{Real or Fake?};
+
 
 ⚙️ Features
 LBP Feature Extraction: 17 texture features per image
